@@ -2,7 +2,7 @@ import { ContactForm } from "@/components/contact-form"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { Card, CardContent } from "@/components/ui/card"
-import { Clock, Mail, MapPin, Phone } from "lucide-react"
+import { Clock, Mail } from "lucide-react"
 
 export default function ContactPage() {
   return (
@@ -58,50 +58,6 @@ export default function ContactPage() {
                           raminramazanpour@gmail.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">For general inquiries</p>
-                      </div>
-                    </div>
-
-                    <div className="flex gap-4">
-                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                        <Mail className="text-primary" size={20} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Business Email</h3>
-                        <a
-                          href="mailto:raminramazanpour@gmail.com"
-                          className="text-muted-foreground hover:text-primary transition-colors"
-                        >
-                          raminramazanpour@gmail.com
-                        </a>
-                        <p className="text-sm text-muted-foreground mt-1">For partnership opportunities</p>
-                      </div>
-                    </div>
-
-                    <div className="flex gap-4">
-                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                        <Phone className="text-primary" size={20} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Phone</h3>
-                        <a
-                          href="tel:+1234567890"
-                          className="text-muted-foreground hover:text-primary transition-colors"
-                        >
-                          +1 (234) 567-8900
-                        </a>
-                        <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 9am-6pm EST</p>
-                      </div>
-                    </div>
-
-                    <div className="flex gap-4">
-                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                        <MapPin className="text-primary" size={20} />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold mb-1">Headquarters</h3>
-                        <p className="text-muted-foreground">123 Blockchain Street</p>
-                        <p className="text-muted-foreground">San Francisco, CA 94102</p>
-                        <p className="text-muted-foreground">United States</p>
                       </div>
                     </div>
 
